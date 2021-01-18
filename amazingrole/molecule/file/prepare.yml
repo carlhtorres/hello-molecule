@@ -8,7 +8,7 @@
   - name: Example file
     file:
       path: /tmp/somefile
-      state: file
+      state: touch
       group: root
       owner: root
       mode: 0666
