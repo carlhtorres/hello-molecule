@@ -15,6 +15,10 @@ provisioner:
   name: ansible
 verifier:
   name: ansible
+  config_options:
+    defaults:
+      interpreter_python: auto_silent
+      callback_whitelist: profile_tasks, timer, yaml
 lint: |
   set -e
   yamllint .
