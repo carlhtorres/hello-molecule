@@ -1,5 +1,4 @@
 ---
-# tasks file for amazing-role
 - name: Molecule Hello World!
   debug:
     msg: Hello, World!

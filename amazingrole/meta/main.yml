@@ -1,0 +1,17 @@
+galaxy_info:
+  author: Carlos Henrique T. Silva
+  description: Molecule Lab
+
+  license:
+    - GPL-3.0-only
+
+  min_ansible_version: 2.9
+
+  platforms:
+    - name: Ubuntu
+      versions:
+      - all
+
+  galaxy_tags: []
+
+dependencies: []
