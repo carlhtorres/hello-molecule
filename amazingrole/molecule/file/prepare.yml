@@ -1,0 +1,14 @@
+---
+# This is an example playbook to execute Ansible tests.
+
+- name: Verify
+  hosts: all
+  gather_facts: false
+  tasks:
+  - name: Example file
+    file:
+      path: /tmp/somefile
+      state: file
+      group: root
+      owner: root
+      mode: 0666
